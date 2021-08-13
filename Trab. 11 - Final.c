@@ -1,4 +1,5 @@
 //Criar um sistema que permite o controle de estoque de produtos e o registro de vendas. O cadastro de produtos deve ter pelo menos os seguintes campos: nome, código, preço, estoque. O registro de vendas deve ter as seguintes informações: código do prod., quantidade, data.
+
 //O usuário deve ser capaz de cadastrar produtos (e possivelmente editar e eliminar) e registrar vendas (quando existe o produto em estoque).
 
 //O sistema deve gerar os seguintes relatórios:
