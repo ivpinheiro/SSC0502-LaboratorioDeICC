@@ -1,0 +1,85 @@
+Área de um triangulo
+INÍCIO
+DECLARE base, altura, area
+LEIA base
+LEIA altura
+area <- (base*altura)/2
+ESCREVA "Resultado:" area
+FIM
+
+Temp. de ºC para ºF
+INÍCIO
+DECLARE Celsius, Fahrenheit
+LEIA Celsius
+Fahrenheit <- (Celsius*9/5)+32
+ESCREVA "Resultado:" Fahrenheit
+FIM
+
+Encanador
+INÍCIO
+DECLARE diatrabalhado, total, impostorenda, previdencia, liquido
+LEIA diatrabalhado
+total <- diatrabalhado*200
+impostorenda <- total*0,25
+previdencia <- total*0,11
+liquido <- total-(impostorenda+previdencia)
+ESCREVA "Salário Liquido:" liquido,
+	"Descontos"
+	Imposto de renda:" impostorenda, 
+	"Contribuição previdenciária:" previdencia
+FIM
+
+Pintor
+INICIO 
+DECLARE altura, largura, paredes, areatotal, valortinta, valortrabalho, valor final
+LEIA altura
+LEIA largura
+LEIA paredes
+areatotal <- altura*largura
+valortinta <- ((areatotal*paredes)/5)*20
+valortrabalho <- ((areatotal*paredes)/10)*30
+valorfinal <- (valortinta+valortrabalho)
+ESCREVA "O orçamento é:" valorfinal
+FIM
+
+Nota de provas
+INÍCIO
+DECLARE Prova1, Prova2, Prova3, media
+LEIA Prova1
+LEIA Prova2
+LEIA Prova3
+media <- (Prova1+Prova2+Prova3)/3
+SE (media>=5,0)
+ ENTÃO
+ ESCREVA "Aprovado"
+ SENÃO
+ ESCREVA "Reprovado"
+ FIMSE
+FIM
+
+Aumento de salário
+INÍCIO
+DECLARE salario, aumento
+LEIA salario
+ SE (salario =< 500)
+ ENTÃO
+ aumento <- salario*1,2
+ SENÃO (salario > 500)
+ aumento <- salario*1,1
+ FIMSE
+ESCREVA "O salário final com aumento é:" aumento
+FIM
+
+Peso ideal
+INÍCIO
+DECLAREREAL altura, pesoideal
+DECLARE sexo
+LEIA altura
+LEIA "Digite o sexo (M para masculino e F para feminino):" sexo
+ SE (sexo = M)
+ pesoideal <- (72.7*altura)-50
+ SENÃO (sexo = F)
+ pesoideal <- (62.1*altura)-44.7
+ FIMSE
+ESCREVA "O peso ideal é:" pesoideal
+FIM
